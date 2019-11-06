@@ -2,6 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name             = 'iOSBaseKit'   
+    s.version          = '1.0.2'
     s.summary          = 'iOS基础组件'
     s.description      = <<-DESC
    			 一个iOS基础组件
@@ -15,7 +16,6 @@ Pod::Spec.new do |s|
     #s.exclude_files = "Classes/Exclude"
 
 
-    s.version          = '1.0.2'
     s.source_files     = 'iOSBaseKit/*.{h,m}'  
 
     s.dependency "YYKit"
