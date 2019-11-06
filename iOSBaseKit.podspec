@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     #s.exclude_files = "Classes/Exclude"
 
 
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.source_files  = 'iOSBaseKit/*.{h,m}'  
 
     s.dependency "YYKit"
